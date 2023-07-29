@@ -25,10 +25,18 @@
 }
 
 .form-box h1 {
+  transition: all 1s;
   color: rgba(0, 0, 50, 0.8);
   text-align: center;
   padding-top: 20px;
   padding-bottom: 60px;
+  opacity: 1; /* Initial opacity */
+  font-size: 24px; /* Initial font size */
+}
+
+.form-box.active h1 {
+  opacity: 0; /* Target opacity after the transition */
+  font-size: 36px; /* Target font size after the transition */
 }
 
 .input-container {
@@ -91,6 +99,10 @@
   padding-top: 30px;
   text-align: center;
   border-radius: 20px;
+}
+.switches button {
+  transition: background 1s;
+  cursor: pointer;
 }
 
 .sign-up-btn {
