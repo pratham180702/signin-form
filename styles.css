@@ -103,9 +103,6 @@
 .switches button {
   transition: background 1s;
   cursor: pointer;
-}
-
-.sign-up-btn {
   font-family: Arial, Helvetica, sans-serif;
   height: 30px;
   width: 70px;
@@ -118,7 +115,7 @@
   color: white;
 }
 
-.sign-in-btn {
+.disable {
   font-family: Arial, Helvetica, sans-serif;
   height: 30px;
   width: 70px;
