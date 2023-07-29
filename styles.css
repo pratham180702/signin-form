@@ -50,11 +50,12 @@
   width: 90%;
   height: 45px;
   left: 15px;
-}
-
-.input-field {
+  margin-bottom: 20px;
   background-color: gray;
   border-radius: 15px;
+  max-height: 65px;
+  overflow: hidden;
+  transition: max-height 1s, padding 1s;
 }
 
 .input-field input {
@@ -85,6 +86,7 @@
   position: relative;
   bottom: 10px;
   margin-left: 0;
+  color: rgba(0, 0, 50, 0.8);
   /* margin-right: 20px; */
 }
 
@@ -104,15 +106,28 @@
   transition: background 1s;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
-  height: 30px;
-  width: 70px;
+  height: 40px;
+  width: 80px;
   padding: 5px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 15px;
   border: 0;
-  /* border: 0.2px solid white; */
   background-color: rgba(0, 0, 50, 0.8);
   color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+.switches button.disable {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  width: 80px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  background-color: white;
+  border: 0.2px solid rgba(0, 0, 50, 0.8);
+  color: rgba(0, 0, 50, 0.8);
 }
 
 .disable {
