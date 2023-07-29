@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)),
+    url(background.jpg);
+  background-size: cover; /* or background-size: contain; */
+  position: relative;
+}
+
+.form-box {
+  width: 25%;
+  height: 75vh;
+  background-color: #f6f4eb;
+  position: relative;
+  left: 40vw;
+  top: 12.5vh;
+  border-radius: 20px;
+}
+
+.form-box h1 {
+  color: rgba(0, 0, 50, 0.8);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.input-container {
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.input-field {
+  padding: 20px;
+  position: relative;
+  width: 90%;
+  height: 45px;
+  left: 15px;
+}
+
+.input-field {
+  background-color: gray;
+  border-radius: 15px;
+}
+
+.input-field input {
+  font-family: cursive;
+  color: black;
+  position: relative;
+  bottom: 10px;
+  background-color: transparent;
+  border: 0;
+  height: 25px;
+  width: 90%;
+  padding-left: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.input-field input::placeholder {
+  color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value for the desired opacity */
+  font-size: 1rem;
+}
+
+.icons {
+  position: relative;
+  bottom: 10px;
+  margin-left: 0;
+  /* margin-right: 20px; */
+}
+
+.forget-password {
+  color: rgba(0, 0, 50, 0.8);
+  position: relative;
+  left: 12.5%;
+  padding-top: 5px;
+}
+
+.switches {
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.sign-up-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  width: 70px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0;
+  /* border: 0.2px solid white; */
+  background-color: rgba(0, 0, 50, 0.8);
+  color: white;
+}
+
+.sign-in-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  width: 70px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0.2px solid rgba(0, 0, 50, 0.8);
+  color: rgba(0, 0, 50, 0.8);
+}
